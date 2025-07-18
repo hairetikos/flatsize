@@ -4,13 +4,15 @@
 change the various DPI scaling of flatpak apps if they are not inheriting the DPI scaling from the system
 
 since i wanted to check out codium, i noticed it didn't inherit the DPI scaling of my system
+
 i wanted to use codium for AI-assisted coding, so i figured i would make a GUI program to easily change the DPI, using AI
 
 # dependencies
-  python, qt5
+  `python`
+  `qt5`
 
 debian:
-  apt install python3 python3-qtpy-pyqt5
+  `apt install python3 python3-qtpy-pyqt5`
 
 # small hurdles that had to be solved with copilot:
 
