@@ -3,11 +3,9 @@
 # flatsize
 change the various DPI scaling of flatpak apps if they are not inheriting the DPI scaling from the system
 
-since i wanted to check out codium, i noticed it didn't inherit the DPI scaling of my system
+since i wanted to check out codium, i noticed it didn't inherit the DPI scaling of my system, i had to set a GTK scaling override
 
-i wanted to use codium for AI-assisted coding, so i figured i would make a GUI program using AI to easily change the DPI
-
-for my app the only override i needed was GTK scaling, but i included various others as they may be useful for other people and apps 
+i wanted to use codium for AI-assisted coding, so i figured i would make a GUI program using AI to easily change the DPI, and included various types of DPI/scaling overrides
 
 # dependencies
   `python`
