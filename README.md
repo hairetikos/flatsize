@@ -20,11 +20,11 @@ debian:
 
 created via prompting copilot AI claude 3.7 thinking
 
-it assumed --csv was available in flatpak, but my version is older
-> "you have flatpak but no --csv option"
+it assumed `--csv` was available in flatpak, but my version is older
+> you have flatpak but no --csv option
 
 it was expecting regular spaces between columns, but the data was using tabs
-> "the output of flatpak list is using tab spaces, not normal spaces"
+> the output of flatpak list is using tab spaces, not normal spaces
 
 it was expecting the first output line to have the headers
 > within the python request, it does not include a header, so do not strip the first line
