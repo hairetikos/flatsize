@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Flatpak DPI Manager
+flatsize
 
 A simple GUI tool to adjust DPI and scaling settings for Flatpak applications.
 """
@@ -36,7 +36,7 @@ class FlatpakDpiManager(QWidget):
     
     def setup_ui(self):
         """Set up the user interface."""
-        self.setWindowTitle("Flatpak DPI Manager")
+        self.setWindowTitle("flatsize")
         self.setMinimumWidth(550)
         self.setMinimumHeight(600)
         
