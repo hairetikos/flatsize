@@ -8,13 +8,27 @@ since i wanted to check out codium, i noticed it didn't inherit the DPI scaling 
 i wanted to use codium for AI-assisted coding, so i figured i would make a GUI program using AI to easily change the DPI, and included various types of DPI/scaling overrides.
 
 # dependencies
-  `python`
+  `python3`
   `qt5`
 
 debian:
-  `apt install python3 python3-qtpy-pyqt5`
 
-# small hurdles that had to be solved with copilot:
+  `# apt install python3 python3-qtpy-pyqt5`
+
+# usage
+  `$ python3 flatsize.py`
+  
+  or
+  
+  `$ chmod +x flatsize.py`
+  
+  `$ ./flatsize.py`
+  
+  copy to system binary location for easy invocations
+  
+  usually just one simple override needs to be set (such as GTK for GTK apps, QT for QT apps, etc)
+  
+# small hurdles that had to be solved to help copilot:
 
 created via prompting copilot AI claude 3.7 thinking
 
