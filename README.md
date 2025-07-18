@@ -1,3 +1,5 @@
+![flatsize app window](http://url/to/img.png](https://github.com/hairetikos/flatsize/blob/main/flatsize.png)
+
 # flatsize
 change the various DPI scaling of flatpak apps if they are not inheriting the DPI scaling from the system
 
