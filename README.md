@@ -11,9 +11,27 @@ i wanted to use codium for AI-assisted coding, so i figured i would make a GUI p
   `python3`
   `qt5`
 
-debian:
+Debian/Ubuntu/Mint
 
-  `# apt install python3 python3-qtpy-pyqt5`
+`# apt install python3 python3-qtpy-pyqt5`
+
+Fedora/RHEL/CentOS
+
+`# dnf install python3 python3-qt5`
+
+Arch Linux/Manjaro
+
+`# pacman -S python python-pyqt5`
+
+openSUSE
+
+`# zypper install python3 python3-qt5`
+
+Other Distributions
+
+Install Python 3 and PyQt5 using your distribution's package manager, then if needed:
+
+`$ pip install PyQt5`
 
 # usage
   `$ python3 flatsize.py`
